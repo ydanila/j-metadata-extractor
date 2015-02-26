@@ -86,8 +86,8 @@
     <build>
         <directory>Output/maven</directory>
         <outputDirectory>Output/maven/classes</outputDirectory>
-        <sourceDirectory>Source</sourceDirectory>
-        <testSourceDirectory>Tests</testSourceDirectory>
+        <sourceDirectory>metadata-extractor/Source</sourceDirectory>
+        <testSourceDirectory>metadata-extractor-tests/Tests</testSourceDirectory>
         <testResources>
             <testResource>
                 <directory>Tests/Data</directory>
