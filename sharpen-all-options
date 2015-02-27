@@ -3,9 +3,10 @@
 -nativeTypeSystem
 -separateInterfaceConstants
 -maxColumns 240
--configurationClass sharpen.core.MEConfiguration
+-configurationClass sharpen.config.MEConfiguration
 
 -typeMapping java.io.StringReader Sharpen.StringReader
+-typeMapping com.drew.lang.annotations.Nullable JetBrains.Annotations.CanBeNull
 -methodMapping java.lang.Math.signum System.Math.Sign
 -methodMapping java.lang.Byte.toString System.Convert.ToString
 -methodMapping java.lang.Float.toString ToString
