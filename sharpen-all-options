@@ -9,6 +9,12 @@
 
 -typeMapping java.io.StringReader Sharpen.StringReader
 -typeMapping com.drew.lang.annotations.Nullable JetBrains.Annotations.CanBeNull
+-typeMapping java.lang.Double double?
+-typeMapping java.lang.Integer int?
+-typeMapping java.lang.Long long?
+-typeMapping java.lang.Float float?
+-typeMapping java.lang.Boolean bool?
+-typeMapping java.util.Date System.DateTime?
 -methodMapping java.lang.Math.signum System.Math.Sign
 -methodMapping java.lang.Short.shortValue ""
 -methodMapping java.lang.Integer.intValue ""
