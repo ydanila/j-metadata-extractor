@@ -15,6 +15,7 @@
 -typeMapping java.lang.Float float?
 -typeMapping java.lang.Boolean bool?
 -methodMapping java.lang.Math.signum System.Math.Sign
+-methodMapping java.lang.Math.round (long)System.Math.Round
 -methodMapping java.lang.Short.shortValue ""
 -methodMapping java.lang.Integer.intValue ""
 -methodMapping java.lang.Long.longValue ""
